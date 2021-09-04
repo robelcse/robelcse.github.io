@@ -13,6 +13,7 @@ body, html{
    font-size: 16px;
    color: #fff;
    font-family: 'Noto Sans JP', sans-serif;
+   scroll-behavior: smooth;
 }
 
 .warpper{}
@@ -93,6 +94,7 @@ body, html{
 .home{
 
     text-align: center;
+    padding-bottom: 280px;
 }
 
 .designation{
