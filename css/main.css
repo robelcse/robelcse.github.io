@@ -49,6 +49,12 @@ body, html{
     padding: 15px 0px;
     border-bottom: 1px solid rgb(57, 57, 57);
 }
+
+.menu-bar ul li:first-child{
+
+    border-top: 1px solid rgb(57, 57, 57);
+
+}
 .menu-bar ul li a{
 
     font-size: 16px;
@@ -60,7 +66,7 @@ body, html{
 .menu-bar ul li a:hover{
 
     padding-left: 10px;
-    color: rgb(33, 150, 243);
+    color: deepskyblue;
     transition: .8s;
 }
 .menu-bar ul li i{
@@ -91,14 +97,15 @@ body, html{
 
 .designation{
 
-    padding-top: 150px;
+    padding-top: 60px;
 }
 .designation img{
 
-     height: 175px;
-     width: 170px;
-     border-radius: 50%;
-     margin-bottom: 30px;
+    height: 175px;
+    width: 170px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 10px solid white;
 
 }
 .designation h2{}
@@ -125,7 +132,7 @@ body, html{
     list-style: none;
     display: inline-flex;
     /* padding: 20px 20px; */
-    border: 1px solid #fff;
+    border: 1px solid deepskyblue;
     margin: 5px;
     height: 50px;
     width: 50px;
@@ -138,7 +145,7 @@ body, html{
     position: absolute;
     top: 30%;
     left: 30%;
-    color: #fff;
+    color: deepskyblue;
 }
 
 
