@@ -1,0 +1,331 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+   
+   width: 100%;
+   background: rgb(21, 21, 21);
+   /* background: #a00f0f; */
+   font-size: 16px;
+   color: #fff;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.warpper{}
+.sidebar-section{
+
+    background: rgb(34, 34, 34);
+    position: fixed;
+    width: 20%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid rgb(57, 57, 57);
+    padding: 40px;
+}
+
+.logo{}
+.logo h2{
+
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.menu-bar{}
+.menu-bar ul{
+
+    padding: 0;
+    margin: 0;
+}
+.menu-bar ul li{
+
+    list-style: none;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(57, 57, 57);
+}
+.menu-bar ul li a{
+
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: .8s;
+}
+
+.menu-bar ul li a:hover{
+
+    padding-left: 10px;
+    color: rgb(33, 150, 243);
+    transition: .8s;
+}
+.menu-bar ul li i{
+
+    padding-right: 5px;
+}
+
+.copyright{}
+.copyright p{
+
+    font-size: 16px;
+    margin-top: 90px;
+}
+
+.main-section{
+
+    width: 80%;
+    margin-left: 20%;
+}
+.content{
+
+    padding: 40px;
+}
+.home{
+
+    text-align: center;
+}
+
+.designation{
+
+    padding-top: 150px;
+}
+.designation img{
+
+     height: 175px;
+     width: 170px;
+     border-radius: 50%;
+     margin-bottom: 30px;
+
+}
+.designation h2{}
+.designation h3{}
+.designation p{}
+.designation i{
+
+    padding-right: 10px;
+}
+
+
+.social-link{
+
+    padding-top: 40px;
+}
+.social-link ul{
+     
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.social-link ul li{
+     
+    list-style: none;
+    display: inline-flex;
+    /* padding: 20px 20px; */
+    border: 1px solid #fff;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.social-link ul li i{
+
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #fff;
+}
+
+
+/*about*/
+.about{
+
+    margin-bottom: 100px;
+}
+.about-me{
+
+    padding-bottom: 30px;
+}
+.about-me h2{
+
+    padding-bottom: 10px;
+}
+.about-me p{}
+
+.skills{
+
+    padding-bottom: 50px;
+}
+.skills h2{
+
+    padding-bottom: 10px;
+}
+
+.skill-set{
+
+    padding-bottom: 10px;
+}
+.skill-set h3{
+
+    padding-bottom: 5px;
+}
+.single-skill{
+
+    background: #fff;
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+.progress-bar{
+
+    position: absolute;
+    background: deepskyblue;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.progress-bar-50{
+    width: 50%;
+}
+.progress-bar-60{
+    width: 60%;
+}
+.progress-bar-70{
+    width: 70%;
+}
+.progress-bar-80{
+    width: 80%;
+}
+.progress-bar-90{
+    width: 90%;
+}
+.progress-bar-100{
+    width: 100%;
+}
+
+.education-and-work{
+    flex-wrap: wrap;
+    display: flex;
+    /* padding-top: 50px;*/
+}
+.education{
+
+    width: 48%;
+    margin-right: 2%;
+}
+
+ 
+.education h2{
+
+    padding-bottom: 10px;
+}
+
+.education-pallet{
+
+        /* width: 48%; */
+    /* margin-right: 2%; */
+    background: rgb(57, 57, 57);;
+    padding: 25px;
+    border-left: 5px solid deepskyblue;
+    position: relative;
+    min-height: 150px;
+    justify-content: flex-start;
+    float: left;
+    position: relative;
+}
+
+.education-pallet:before{
+  
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: deepskyblue;
+    border-radius: 50%;
+    top: 30px;
+    left: -10px;
+
+
+}
+.single-education{}
+
+.single-education span{}
+.single-education h3{
+
+    padding-top: 15px;
+    font-size: 16px;
+}
+.single-education p{}
+.single-education span i{
+
+    padding-right: 10px;
+}
+
+
+.work{
+
+
+    width: 48%;
+    margin-left: 2%;
+
+}
+.work h2{
+
+    padding-bottom: 10px;
+}
+
+.work-pallet{
+
+        /* width: 48%; */
+    /* margin-right: 2%; */
+    background: rgb(57, 57, 57);;
+    padding: 25px;
+    border-left: 5px solid deepskyblue;
+    position: relative;
+    min-height: 150px;
+    justify-content: flex-start;
+    float: left;
+    position: relative;
+}
+
+.work-pallet::before{
+
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: deepskyblue;
+    border-radius: 50%;
+    top: 30px;
+    left: -10px;
+}
+.single-work{}
+
+.single-work span{}
+.single-work h3{
+
+    padding-top: 15px;
+    font-size: 16px;
+}
+.single-work p{}
+.single-work span i{
+
+    padding-right: 10px;
+}
+
+.hide-section{
+
+    display: none;
+}
