@@ -395,3 +395,134 @@ body, html{
     line-height: 22px;
     word-break: break-all;
 }
+
+/*contact*/
+.contact-section{}
+.contact-section h2{
+
+    padding-top: 50px;
+    position: relative;
+}
+.contact-info{
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.single-contact{
+    flex-basis: 300px;
+    text-align: center;
+    flex-shrink: 1;
+}
+.single-contact i{
+
+    font-size: 40px;
+    color: deepskyblue;
+    padding: 10px;
+}
+.single-contact p{}
+
+.contact-form{}
+.contact-form form{}
+
+.col-6{
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+
+    flex-grow: 1;
+    flex-basis: 400px;
+    /* width: 100px; */
+    margin-right: 20px;
+}
+.name input[type='text']{
+
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    background: rgb(34,34,34);
+    border: 1px solid rgb(57,57,57);
+    color: #fff;
+}
+.email{
+
+    flex-grow: 1;
+    flex-basis: 400px;
+    /* width: 100px; */
+    
+}
+.email input[type='text']{
+
+
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    background: rgb(34,34,34);
+    border: 1px solid rgb(57,57,57);
+    color: #fff;
+
+}
+
+.col-12{
+
+    margin-top: 20px;
+}
+.col-12 input[type='text']{
+
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    background: rgb(34,34,34);
+    border: 1px solid rgb(57,57,57);
+    color: #fff;
+}
+
+.col-12 textarea{
+
+
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    margin-top: 20px;
+    min-height: 150px;
+    background: rgb(34,34,34);
+    border: 1px solid rgb(57,57,57);
+    color: #fff;
+     
+}
+
+.form-btn{
+
+    
+}
+.form-btn button{
+
+    border: none;
+    outline: 0;
+    background: deepskyblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 70px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
