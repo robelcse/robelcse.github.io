@@ -1,0 +1,696 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+   
+   width: 100%;
+   background: rgb(21,21,21);
+   font-size: 16px;
+   color: #fff;
+   font-family: 'Noto Sans JP', sans-serif;
+   scroll-behavior: smooth;
+}
+
+.menu-bar ul li:nth-child(1), ul li:nth-child(2),ul li:nth-child(3),ul li:nth-child(4),ul li:nth-child(5), ul li:nth-child(6){
+
+    position: relative;
+}
+.menu-bar ul li:nth-child(1):before{
+
+    position: absolute;
+    content: "\f015";
+    left: 2px;
+    top: 17px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: #fff;
+}
+.menu-bar ul li:nth-child(2):before{
+
+    position: absolute;
+    content: "\f007";
+    left: 2px;
+    top: 17px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: #fff;
+}
+.menu-bar ul li:nth-child(3):before{
+
+    position: absolute;
+    content: "\f19d";
+    left: 0;
+    top: 17px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: #fff;
+}
+
+.menu-bar ul li:nth-child(4):before{
+
+    position: absolute;
+    content: "\f0ca";
+    left: 0;
+    top: 17px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: #fff;
+}
+
+.menu-bar ul li:nth-child(5):before{
+
+    position: absolute;
+    content: "\f0b1";
+    left: 0;
+    top: 17px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: #fff;
+}
+
+.menu-bar ul li:nth-child(6):before{
+
+    position: absolute;
+    content: "\f075";
+    left: 0;
+    top: 17px;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: #fff;
+}
+
+/*index page*/
+.wrap{
+
+}
+.main-section{
+
+    
+    flex-wrap: wrap;
+    display: flex;
+}
+.sidebar-section{
+
+    flex-grow: 3;
+    flex-basis: 25%;
+    background: rgb(34, 34, 34);
+    border-right: 1px solid rgb(57, 57, 57);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 25%;
+    padding: 40px;
+    z-index: 200;
+}
+.logo{
+
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.name{
+
+    flex-grow: 10;
+    text-align: center;
+}
+.name h2{
+
+ 
+}
+
+.nav-bar{
+
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    visibility: hidden;
+}
+.nav-bar i{}
+
+
+.nav-bar{
+
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    background: rgb(34,34,34);
+    padding: 10px 15px;
+}
+.cross-bar i{
+
+    color: #fff;
+}
+
+
+.menu-bar{} 
+.menu-bar ul{
+    padding: 0;
+    margin: 0;
+} 
+.menu-bar ul li{
+
+    list-style: none;
+    padding: 15px 30px;
+    border-bottom: 1px solid rgb(57, 57, 57);
+}
+.menu-bar ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    transition: .8s;
+}
+
+
+.menu-bar ul li a:hover{
+
+    padding-left: 10px;
+    color: deepskyblue;
+    transition: .8s;
+}
+.content-section{
+
+    flex-grow: 9;
+    
+    flex-basis: 75%;
+    min-width: 75%;
+    margin-left: 25%;
+    background: rgb(21,21,21);
+    min-height: 800px;
+    /* padding: 40px; */
+    /* z-index: 100; */
+}
+.home{
+
+    background-image: url(https://mdrobelahmedcse.github.io/images/backgrounds/background.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+     
+}
+
+.description{
+
+    flex-wrap: wrap;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background: rgb(34,34,34);
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    border: 2px solid rgb(57,57,57);
+    border-radius: 5px;
+ 
+    
+}
+.protfolio-img{
+
+    flex-grow: 4;
+    flex-basis: 40%;
+}
+.protfolio-img img{
+   
+    height: 300px;
+    width: 300px;
+    padding: 10px 25px;
+}
+.designation{
+
+    flex-grow: 8;
+    flex-basis: 60%;
+    padding-top: 50px;
+}
+.designation h2{}
+.designation h4{}
+.designation p{}
+.designation p i{
+
+    padding-right: 10px;
+    color: darkblue;
+}
+
+.designation ul{
+
+    padding: 0;
+    margin: 15px 0px 25px 0px;
+}
+.designation ul li{
+
+    list-style: none;
+    display: inline-flex;
+    background: darkblue;
+    padding: 10px 11px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.designation ul li a{}
+.designation ul li a i{
+
+    color: #fff;
+    font-size: 20px;
+}
+
+@media (max-width: 1000px){
+   
+    .sidebar-section{
+
+        width: 240px;
+        margin-left: -240px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 100;
+        transition: .5s;
+    }
+
+    .content-section{
+
+        width: 100%;
+        margin-left: 0;
+    }
+    .nav-bar{
+
+          visibility: visible;
+    }
+
+    .cross-bar{
+
+        visibility: visible;
+    }
+
+}
+
+.resume-and-hire{
+
+    margin-bottom: 30px;
+
+}
+
+.resume-and-hire a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: darkblue;
+    margin: 5px;
+}
+
+
+/*about*/
+.about{
+
+    margin: 350px 10px 0px 10px;
+    padding: 40px;
+     
+     
+}
+.about-me{}
+.about-me h2{
+
+    margin-bottom: 25px;
+    position: relative;
+}
+.about-me h2:before{
+
+    position: absolute;
+    content: "";
+    background: deepskyblue;
+    height: 3px;
+    width: 107px;
+    bottom: -5px;
+
+}
+.about-me p{}
+
+
+
+.skills{
+
+    margin-top: 100px;
+}
+ 
+.skills h2{
+
+    margin-bottom: 25px;
+    position: relative;
+}
+.skills h2:before{
+
+    position: absolute;
+    content: "";
+    background: deepskyblue;
+    height: 3px;
+    width: 107px;
+    bottom: -5px;
+
+}
+.single-skill{}
+.single-skill h3{}
+.skill-bar{
+
+    background: #fff;
+    width: 100%;
+    height: 5px;
+    position: relative;
+}
+.skill-parcent{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    background: deepskyblue;
+}
+
+.skill-70parcent{
+    width: 70%;
+}
+.skill-80parcent{
+    width: 80%;
+}
+.skill-85parcent{
+    width: 85%;
+}
+.skill-90parcent{
+    width: 90%;
+}
+.skill-95parcent{
+    width: 95%;
+}
+
+@media (max-width: 1000px){
+
+    .about{
+
+         margin-top: 465px;
+    }
+}
+
+/*education*/
+.education{
+
+    margin: 100px 10px 0px 10px;
+    padding: 40px;
+}
+
+.education h2{
+
+    margin-bottom: 25px;
+    position: relative;
+}
+.education h2:before{
+
+    position: absolute;
+    content: "";
+    background: deepskyblue;
+    height: 3px;
+    width: 107px;
+    bottom: -5px;
+
+}
+
+.education-panel{
+
+    background: rgb(34,34,34);
+    padding: 20px;
+    border: 2px solid rgb(57,57,57);
+    border-radius: 5px;
+}
+.all-education{
+
+    border-left: 2px solid deepskyblue;
+}
+.single-education{
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.single-education:before{
+
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: deepskyblue;
+    border-radius: 50%;
+    left: -9px;
+    top: 5px;
+
+}
+.single-education span{}
+.single-education span i{}
+.single-education h3{}
+.single-education p{}
+
+
+/*service*/
+.service{
+
+    margin-top: 100px;
+    padding: 40px;
+}
+.service h2{}
+
+
+.service h2{
+
+    margin: 30px 10px;
+    position: relative;
+}
+.service h2:before{
+
+    position: absolute;
+    content: "";
+    background: deepskyblue;
+    height: 3px;
+    width: 107px;
+    bottom: -5px;
+
+}
+
+.all-service{
+
+    flex-wrap: wrap;
+    display: flex;
+}
+.single-service{
+
+    flex-grow: 1;
+    flex-basis: 300px;
+    background: rgb(34,34,34);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgb(57,57,57);
+    border-radius: 5px;
+}
+
+.single-service:hover{
+
+    background: deepskyblue;
+    transition: .5s;
+}
+.single-service i{
+
+    font-size: 30px;
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin: 25px 0px;
+    color: deepskyblue;
+}
+.single-service h3{}
+.single-service p{
+
+    text-align: justify;
+    padding: 10px;
+    word-break: break-all;
+}
+
+/*contact*/
+.contact{
+
+    margin-top: 100px;
+    padding: 40px;
+}
+ 
+
+.contact h2{
+
+    margin: 30px 10px;
+    position: relative;
+}
+.contact h2:before{
+
+    position: absolute;
+    content: "";
+    background: deepskyblue;
+    height: 3px;
+    width: 107px;
+    bottom: -5px;
+
+}
+
+.contact-form{}
+.contact-form form{}
+
+.name-email{
+
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 20px;
+} 
+.name-input{
+
+    flex-grow: 1;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    margin: 10px;
+}
+.name-input input[type='text']{
+
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    background: rgb(34,34,34);
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border: 1px solid rgb(57,57,57);
+}
+
+.subject-message{
+
+    margin: 10px;
+}
+.subject{
+
+    margin-bottom: 20px;
+}
+.subject input[type='text']{
+    width: 100%;
+    background: rgb(34,34,34);
+    border: 1px solid rgb(57,57,57);
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+}
+
+.message{}
+.message textarea{
+
+    width: 100%;
+    background: rgb(34,34,34);
+    border: 0;
+    border: 1px solid rgb(57,57, 57);
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    outline: 0;
+    min-height: 100px;
+}
+
+.submit-btn {
+
+    margin: 10px;
+}
+.submit-btn button{
+
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: deepskyblue;
+    color: #fff;
+    padding: 15px 60px;
+}
+
+/*protfolio*/
+
+.protfolio{
+
+    margin-top: 100px;
+    padding: 40px;
+}
+ 
+
+.protfolio h2{
+
+    margin: 30px 10px;
+    position: relative;
+}
+.protfolio h2:before{
+
+    position: absolute;
+    content: "";
+    background: deepskyblue;
+    height: 3px;
+    width: 107px;
+    bottom: -5px;
+
+}
+
+.all-protfolio{
+
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.single-protfolio{
+
+    flex-grow: 1;
+    flex-basis: 300px;
+    flex-shrink: 1;
+    text-align: center;
+    background: #fff;
+    margin: 10px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.protfolio h2{}
+
+.single-protfolio{}
+.protfolio-head {}
+.protfolio-head a{
+
+    text-decoration: none;
+}
+.protfolio-head img{
+
+    height: 100%;
+    width: 100%;
+}
+
+.protfolio-body {
+
+    padding: 15px 0px;
+}
+.protfolio-body h3{}
+.protfolio-body a{
+
+    text-decoration: none;
+    color: rgb(34,34,34);
+    font-size: 16px;
+}
