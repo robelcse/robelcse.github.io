@@ -7,12 +7,12 @@
 
 body, html{
    
-   width: 100%;
-   background: rgb(21,21,21);
-   font-size: 16px;
-   color: #fff;
-   font-family: 'Noto Sans JP', sans-serif;
-   scroll-behavior: smooth;
+    width: 100%;
+    background: #101010;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .menu-bar ul li:nth-child(1), ul li:nth-child(2),ul li:nth-child(3),ul li:nth-child(4),ul li:nth-child(5), ul li:nth-child(6){
@@ -38,7 +38,7 @@ body, html{
 .menu-bar ul li:nth-child(2):before{
 
     position: absolute;
-    content: "\f007";
+    content: "\f085";
     left: 2px;
     top: 17px;
     font-size: 20px;
@@ -103,7 +103,7 @@ body, html{
 
     flex-grow: 3;
     flex-basis: 25%;
-    background: rgb(34, 34, 34);
+    background: rgb(34,34,34);
     border-right: 1px solid rgb(57, 57, 57);
     position: fixed;
     left: 0;
@@ -182,14 +182,13 @@ body, html{
 .content-section{
 
     flex-grow: 9;
-    
     flex-basis: 75%;
     min-width: 75%;
     margin-left: 25%;
-    background: rgb(21,21,21);
+    background: #101010;
     min-height: 800px;
     /* padding: 40px; */
-    /* z-index: 100; */
+    /* z-index: 100;
 
      
 }
@@ -208,21 +207,19 @@ body, html{
      
 }
 
-.description{
-
+.description {
     flex-wrap: wrap;
     display: flex;
     /* width: 90%; */
-    margin:50px auto;
-    background: rgb(34,34,34);
+    margin: 50px auto;
+    background: #101010;
     /* position: absolute; */
     /* left: 5%; */
     /* top: 60%; */
     border: 2px solid rgb(57,57,57);
-    border-radius: 5px;
+    /* border-radius: 5px; */
     text-align: center;
- 
-    
+    box-shadow: 10px 15px 2px #282828;
 }
 
 .about-me{
@@ -269,7 +266,7 @@ body, html{
 .designation p i{
 
     padding-right: 10px;
-    color: darkblue;
+    color: deepskyblue;
 }
 
 .designation ul{
@@ -281,7 +278,7 @@ body, html{
 
     list-style: none;
     display: inline-flex;
-    background: darkblue;
+    background: deepskyblue;
     padding: 10px 11px;
     height: 40px;
     width: 40px;
@@ -336,7 +333,7 @@ body, html{
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
-    background: darkblue;
+    background: deepskyblue;
     margin: 5px;
 }
 
@@ -478,7 +475,10 @@ body, html{
 
     padding-right: 10px;
 }
-.single-education h3{}
+.single-education h3{
+
+    padding: 12px 0px;
+}
 .single-education p{}
 
 
@@ -680,16 +680,16 @@ body, html{
  
 
 .single-protfolio{
-
     flex-grow: 1;
     flex-basis: 300px;
     flex-shrink: 1;
     text-align: center;
-    background: #fff;
+    background: #101010;
     margin: 10px;
     padding: 15px 10px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     cursor: pointer;
+    /* border: 1px solid #fff;*/
 }
 .protfolio h2{}
 
@@ -713,6 +713,10 @@ body, html{
 .protfolio-body a{
 
     text-decoration: none;
-    color: rgb(34,34,34);
+    color: #fff;
     font-size: 16px;
 }
+
+ 
+
+ 
