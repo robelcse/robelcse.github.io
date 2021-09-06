@@ -19,6 +19,11 @@ body, html{
 
     position: relative;
 }
+
+.menu-bar ul li:nth-child(1){
+
+    border-top: 1px solid rgb(57, 57, 57);
+}
 .menu-bar ul li:nth-child(1):before{
 
     position: absolute;
@@ -28,6 +33,7 @@ body, html{
     font-size: 20px;
     font-family: "FontAwesome";
     color: #fff;
+   
 }
 .menu-bar ul li:nth-child(2):before{
 
@@ -468,7 +474,10 @@ body, html{
 
 }
 .single-education span{}
-.single-education span i{}
+.single-education span i{
+
+    padding-right: 10px;
+}
 .single-education h3{}
 .single-education p{}
 
