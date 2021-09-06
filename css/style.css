@@ -184,18 +184,21 @@ body, html{
     min-height: 800px;
     /* padding: 40px; */
     /* z-index: 100; */
+
+     
 }
 .home{
 
-    background-image: url(https://mdrobelahmedcse.github.io/images/backgrounds/background.jpg);
+        /* background-image: url(https://mdrobelahmedcse.github.io/images/backgrounds/background.jpg); */
     /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 400px;
-    position: relative;
-    text-align: center;
-    padding: 40px;
+    /* position: relative; */
+    /* text-align: center; */
+    padding: 46px;
+    
      
 }
 
@@ -203,16 +206,39 @@ body, html{
 
     flex-wrap: wrap;
     display: flex;
-    width: 80%;
-    margin: auto;
+    /* width: 90%; */
+    margin:50px auto;
     background: rgb(34,34,34);
-    position: absolute;
-    left: 10%;
-    top: 60%;
+    /* position: absolute; */
+    /* left: 5%; */
+    /* top: 60%; */
     border: 2px solid rgb(57,57,57);
     border-radius: 5px;
+    text-align: center;
  
     
+}
+
+.about-me{
+
+    margin-top: 70px;
+}
+.about-me h2{
+
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.about-me p{}
+.about-me h2:before{
+
+    position: absolute;
+    content: "";
+    background: deepskyblue;
+    height: 3px;
+    width: 107px;
+    bottom: -5px;
+
 }
 .protfolio-img{
 
@@ -310,30 +336,14 @@ body, html{
 
 
 /*about*/
-.about{
+.skill{
 
-    margin: 350px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
     padding: 40px;
-     
-     
+   
 }
-.about-me{}
-.about-me h2{
 
-    margin-bottom: 25px;
-    position: relative;
-}
-.about-me h2:before{
 
-    position: absolute;
-    content: "";
-    background: deepskyblue;
-    height: 3px;
-    width: 107px;
-    bottom: -5px;
-
-}
-.about-me p{}
 
 
 
@@ -344,7 +354,7 @@ body, html{
  
 .skills h2{
 
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     position: relative;
 }
 .skills h2:before{
@@ -357,7 +367,10 @@ body, html{
     bottom: -5px;
 
 }
-.single-skill{}
+.single-skill{
+
+    margin-bottom: 20px;
+}
 .single-skill h3{}
 .skill-bar{
 
@@ -409,7 +422,7 @@ body, html{
 
 .education h2{
 
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     position: relative;
 }
 .education h2:before{
@@ -466,12 +479,12 @@ body, html{
     margin-top: 100px;
     padding: 40px;
 }
-.service h2{}
+ 
 
 
 .service h2{
 
-    margin: 30px 10px;
+    margin: 30px 10px 60px 10px;
     position: relative;
 }
 .service h2:before{
@@ -534,7 +547,7 @@ body, html{
 
 .contact h2{
 
-    margin: 30px 10px;
+    margin: 30px 10px 60px 10px;
     position: relative;
 }
 .contact h2:before{
@@ -634,7 +647,7 @@ body, html{
 
 .protfolio h2{
 
-    margin: 30px 10px;
+    margin: 30px 10px 60px 10px;
     position: relative;
 }
 .protfolio h2:before{
